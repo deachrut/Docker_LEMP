@@ -13,3 +13,9 @@ docker inspect <container name>
 ```
 docker inspect <container name>
 ```
+
+### การติดตั้ง3
+
+```
+docker inspect <container name>
+```
