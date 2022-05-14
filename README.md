@@ -154,6 +154,10 @@ FROM php:7.4-fpm-alpine
 
 RUN docker-php-ext-install mysqli
 ```
+### สร้าง php Image
+```
+docker-compose build
+```
 ### รัน Container
 ```
 docker-compose up -d
@@ -169,8 +173,4 @@ docker-compose ps
 
 ```
 docker-compose down --rmi all
-```
-### สร้าง php Image
-```
-docker-compose build
 ```
