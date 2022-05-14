@@ -1,5 +1,5 @@
 # Docker_LEMP
-test++
+
 # Nginx + php + MariaDB
 ### สร้าง Project ใหม่ Folder ชื่อ lemp_dock
 - docker-compose.yml
