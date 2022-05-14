@@ -41,7 +41,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./html/:/var/www/html
-
       - ./nginx/conf/nginx.conf:/etc/nginx/conf/nginx.conf:ro
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
 
