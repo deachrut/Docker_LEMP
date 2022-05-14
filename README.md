@@ -19,7 +19,7 @@
     - Dockerfile
 ### สร้างไฟล์ titanic.sql แล้ว copy ไปยัง Folder "initdb"
 Credit : https://github.com/RichardKelley/intro-data-science/blob/master/week-11/titanic.sql
-### แก้ไข docker-compose.yml ตามตัวอย่างด้านล่าง
+### แก้ไข docker-compose.yml
 ```
 version: '3'
 
@@ -81,7 +81,7 @@ networks:
    echo "Selected database";
 ?>
 ```
-### แก้ไขไฟล์ nginx.conf
+### แก้ไขไฟล์ nginx.conf ใน conf
 ```
 worker_processes 1;
 daemon off;
@@ -112,7 +112,7 @@ http {
     include /etc/nginx/conf.d/*.conf;
 }
 ```
-### แก้ไขไฟล์ default.conf
+### แก้ไขไฟล์ default.conf ใน conf.d
 ```
 server {
    charset utf-8;
