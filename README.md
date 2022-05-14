@@ -2,20 +2,20 @@
 
 test ++++
 
-### การติดตั้ง
+### รัน Container
 
 ```
-docker inspect <container name>
+docker-compose up -d
 ```
 
-### การติดตั้ง2
+### ดู Containers ที่รันทั้งหมด
 
 ```
-docker inspect <container name>
+docker-compose ps
 ```
 
-### การติดตั้ง3
+### stop/Delete Container
 
 ```
-docker inspect <container name>
+docker-compose down --rmi all
 ```
