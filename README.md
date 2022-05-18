@@ -17,7 +17,7 @@
     - backup
 - php
     - Dockerfile
-### สร้างไฟล์ titanic.sql แล้ว copy ไปยัง Folder "initdb"
+### สร้างไฟล์ tinanic.sql แล้ว copy ไปยัง Folder "initdb"
 Credit : https://github.com/RichardKelley/intro-data-science/blob/master/week-11/titanic.sql
 ### แก้ไข docker-compose.yml
 ```
