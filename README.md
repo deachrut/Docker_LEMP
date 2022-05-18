@@ -13,7 +13,7 @@
 - mariadb
     - data
     - initdb
-        - titanic.sql
+        - tinanic.sql
     - backup
 - php
     - Dockerfile
